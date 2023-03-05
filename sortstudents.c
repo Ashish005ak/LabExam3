@@ -16,7 +16,6 @@ void sort(struct students s[],int n)
 	{
 		indx=0;
 		for(j=1;j<=i;j++)
-		{
 			if(s[indx].avg>s[j].avg)
 				indx=j;
 			
@@ -40,7 +39,6 @@ void sort(struct students s[],int n)
 			s[i].m2=t.m2;
 			s[i].m3=t.m3;
 			s[i].avg=t.avg;
-		}
 	}
 }
 void main()

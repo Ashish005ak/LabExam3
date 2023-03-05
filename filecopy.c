@@ -29,4 +29,5 @@ void main()
         break;
         putchar(ch);
     }
+    fclose(fp);
 }

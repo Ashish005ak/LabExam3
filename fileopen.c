@@ -12,7 +12,7 @@ void main()
     }while(ch!='@');
     fclose(fp);
     fp=fopen("Sample.txt","r");
-    printf("Givem message is\n");
+    printf("Given message is\n");
     while(1)
     {
         ch=getc(fp);
@@ -22,5 +22,4 @@ void main()
         putchar(ch);
     }
     fclose(fp);
-    
 }

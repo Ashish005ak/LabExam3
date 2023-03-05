@@ -32,4 +32,5 @@ void main()
         else
         putchar(ch);
     }
+    fclose(fp);
 }

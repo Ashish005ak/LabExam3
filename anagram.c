@@ -8,13 +8,11 @@ void selectsort(char x[],int n)
     {
         indx=0;
         for(j=1;j<=i;j++)
-        {
             if(x[indx]<x[j])
                 indx=j;
             t=x[indx];
             x[indx]=x[i];
             x[i]=t;
-        }
     }
 }
 void main()
